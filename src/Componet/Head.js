@@ -1,15 +1,12 @@
 import React,{useState,useEffect} from 'react'
-import { Flex, Heading, IconButton, VStack, Spacer, Link, Button, Box, Icon, Divider, Text, Image  } from "@chakra-ui/react";
+import { Flex, IconButton, Link, Spacer, Button, Box, Icon, Divider, Image  } from "@chakra-ui/react";
 
-import {useColorMode, useColorModeValue} from "@chakra-ui/color-mode"
+
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
 function Head() {
    
     const [display,changeDisplay] = useState('none')
-    const color = useColorModeValue('white', 'gray.800')
-    const [image, setImage] = useState('https://res.cloudinary.com/ssdeveloper/image/upload/v1672330952/sgt/backgroundshree_avk2lm.jpg')
-    const [white,setWhite] = useState('white')
     
     const [bgcolor,setBgColor] = useState('')
     const [colorHead,setColorHead] = useState('')
@@ -86,7 +83,7 @@ function Head() {
        <Flex
         w="100vw"
         display={display}
-        bgColor={color}
+        
         zIndex={20}
         h="100vh"
         pos="fixed"

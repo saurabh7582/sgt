@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import Head from './Componet/Head'
 import Header from './Componet/Header';
 
