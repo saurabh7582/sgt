@@ -15,3 +15,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+<script src="https:code.jquery.com/jquery-3.4.1min.js"></script>
