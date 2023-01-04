@@ -1,4 +1,4 @@
-import {  Heading, Stack, Text, Box } from '@chakra-ui/react'
+import { Heading, Stack, Box } from '@chakra-ui/react'
 import React from 'react'
 import './style.css'
 
@@ -16,7 +16,6 @@ function Testimonal() {
         >
           
         </Box>
-       
 
     </Stack>
   )

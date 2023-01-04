@@ -4,9 +4,9 @@ import React from 'react'
 function Collaberation() {
   return (
     <Stack bgColor="#f5f5f5" direction={["column","row","row"]} w="100%" >
-        <Stack w={["100%","20%","20%"]} pt="10">
+        <Stack w={["100%","20%","20%"]}  pt="10">
             <Image src="https://www.shreeagt.com/img/raviprakash-sir-vector.jpg" 
-                borderRadius="50%" w={["50%","16%","16%"]}  alignSelf="center" />
+                borderRadius="50%" w={["50%","50%","50%"]}  alignSelf="center" />
         </Stack>
         <Stack w={["100%","60%","60%"]} p="10"  direction="column">
             <Heading 

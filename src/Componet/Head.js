@@ -43,21 +43,7 @@ function Head() {
                 Home
               </Button>
             </Link>
-          <Link href='/work' _focus="none" >
-              <Button as="a"  variant='ghost' color={colorHead} >
-                Work
-              </Button>
-            </Link>
-            <Link href='/services' _focus="none" >
-              <Button as="a"  variant='ghost' color={colorHead} >
-                Services
-              </Button>
-            </Link>
-            <Link href='/contact' _focus="none" >
-              <Button as="a"  variant='ghost' color={colorHead} >
-                Contact
-              </Button>
-            </Link>
+            
         </Flex>
         <Flex alignSelf="flex-end" pl={15}>
         </Flex>
@@ -125,24 +111,7 @@ function Head() {
                   </Button>
               </Link>
               <Divider ml="5" mr="5" orientation='horizontal' />
-              <Link href='/work' _focus="none" >
-                <Button as="a"  variant='ghost' fontSize='lg' pt='10' pb="5" color="white" >
-                    Work
-                  </Button>
-              </Link>
-              <Divider ml="5" mr="5" orientation='horizontal' />
-              <Link href='/services' _focus="none" >
-                <Button as="a"  variant='ghost' fontSize='lg' pt='10' pb="5" color="white">
-                  Services
-                </Button>
-              </Link>
-              <Divider ml="5" mr="5" orientation='horizontal' />
-              <Link href='/contact' _focus="none" >
-                <Button as="a"  variant='ghost' fontSize='lg' pt='10' color="white">
-                  Contact
-                </Button>
-              </Link>
-              <Divider mt='5' orientation='horizontal' />
+              
           </Flex>
           
        </Flex>
