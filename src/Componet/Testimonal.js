@@ -14,7 +14,7 @@ function Testimonal() {
           boxShadow="0 0 10px 0" alignSelf="center" border="none" 
           borderRadius="10px" w="70%" p="20" ml={["0","15%","15%"]} mr={["0","15%","15%"]} backgroundColor="whiteAlpha.100"
         >
-          <Text>hi</Text>
+          
         </Box>
        
 
